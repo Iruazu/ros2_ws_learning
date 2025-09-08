@@ -1,0 +1,9 @@
+# ROS and Colcon build artifacts
+build/
+install/
+log/
+__pycache__/
+
+# VS Code C++ temporary files
+.vscode/browse.vc.db
+.vscode/*.dbs
