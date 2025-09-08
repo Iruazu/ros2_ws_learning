@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/sensor_sim/sensor_sim.egg-info
+writing ../../build/sensor_sim/sensor_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_sim/sensor_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_sim/sensor_sim.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_sim/sensor_sim.egg-info/requires.txt
+writing top-level names to ../../build/sensor_sim/sensor_sim.egg-info/top_level.txt
+writing manifest file '../../build/sensor_sim/sensor_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_sim/sensor_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_sim/sensor_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/ros2_ws/build/sensor_sim/build
+creating /workspaces/ros2_ws/build/sensor_sim/build/lib
+creating /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim
+copying sensor_sim/sensor_pub.py -> /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim
+copying sensor_sim/sensor_sub.py -> /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim
+copying sensor_sim/__init__.py -> /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim
+running install
+running install_lib
+creating /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim
+copying /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim/sensor_pub.py -> /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim
+copying /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim/sensor_sub.py -> /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim
+copying /workspaces/ros2_ws/build/sensor_sim/build/lib/sensor_sim/__init__.py -> /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim
+byte-compiling /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim/sensor_pub.py to sensor_pub.cpython-310.pyc
+byte-compiling /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim/sensor_sub.py to sensor_sub.cpython-310.pyc
+byte-compiling /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspaces/ros2_ws/install/sensor_sim/share/ament_index
+creating /workspaces/ros2_ws/install/sensor_sim/share/ament_index/resource_index
+creating /workspaces/ros2_ws/install/sensor_sim/share/ament_index/resource_index/packages
+copying resource/sensor_sim -> /workspaces/ros2_ws/install/sensor_sim/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/ros2_ws/install/sensor_sim/share/sensor_sim
+running install_egg_info
+Copying ../../build/sensor_sim/sensor_sim.egg-info to /workspaces/ros2_ws/install/sensor_sim/lib/python3.10/site-packages/sensor_sim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_pub script to /workspaces/ros2_ws/install/sensor_sim/lib/sensor_sim
+Installing sensor_sub script to /workspaces/ros2_ws/install/sensor_sim/lib/sensor_sim
+writing list of installed files to '/workspaces/ros2_ws/build/sensor_sim/install.log'

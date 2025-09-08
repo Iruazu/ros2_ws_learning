@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing my_services_actions.egg-info/PKG-INFO
+writing dependency_links to my_services_actions.egg-info/dependency_links.txt
+writing entry points to my_services_actions.egg-info/entry_points.txt
+writing requirements to my_services_actions.egg-info/requires.txt
+writing top-level names to my_services_actions.egg-info/top_level.txt
+reading manifest file 'my_services_actions.egg-info/SOURCES.txt'
+writing manifest file 'my_services_actions.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2_ws/src/install/my_services_actions/lib/python3.10/site-packages/my-services-actions.egg-link (link to .)
+
+Installed /workspaces/ros2_ws/src/build/my_services_actions
+running symlink_data
+symbolically linking /workspaces/ros2_ws/src/build/my_services_actions/resource/my_services_actions -> /workspaces/ros2_ws/src/install/my_services_actions/share/ament_index/resource_index/packages
+symbolically linking /workspaces/ros2_ws/src/build/my_services_actions/package.xml -> /workspaces/ros2_ws/src/install/my_services_actions/share/my_services_actions

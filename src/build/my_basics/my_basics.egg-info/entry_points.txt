@@ -1,0 +1,4 @@
+[console_scripts]
+listener = my_basics.listener:main
+talker = my_basics.talker:main
+

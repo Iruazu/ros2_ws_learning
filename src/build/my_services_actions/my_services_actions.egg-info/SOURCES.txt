@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+my_services_actions.egg-info/PKG-INFO
+my_services_actions.egg-info/SOURCES.txt
+my_services_actions.egg-info/dependency_links.txt
+my_services_actions.egg-info/entry_points.txt
+my_services_actions.egg-info/requires.txt
+my_services_actions.egg-info/top_level.txt
+my_services_actions.egg-info/zip-safe
+resource/my_services_actions

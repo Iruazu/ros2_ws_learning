@@ -1,0 +1,4 @@
+[console_scripts]
+velocity_client = my_service_pkg.velocity_client:main
+velocity_service = my_service_pkg.velocity_service:main
+

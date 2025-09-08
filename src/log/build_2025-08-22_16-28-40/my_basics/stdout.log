@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_basics.egg-info/PKG-INFO
+writing dependency_links to my_basics.egg-info/dependency_links.txt
+writing entry points to my_basics.egg-info/entry_points.txt
+writing requirements to my_basics.egg-info/requires.txt
+writing top-level names to my_basics.egg-info/top_level.txt
+reading manifest file 'my_basics.egg-info/SOURCES.txt'
+writing manifest file 'my_basics.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages/my-basics.egg-link (link to .)
+Installing listener script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics
+Installing talker script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics
+
+Installed /workspaces/ros2_ws/src/build/my_basics
+running symlink_data
+creating /workspaces/ros2_ws/src/install/my_basics/share/my_basics/launch
+symbolically linking /workspaces/ros2_ws/src/build/my_basics/launch/my_basics_launch.py -> /workspaces/ros2_ws/src/install/my_basics/share/my_basics/launch

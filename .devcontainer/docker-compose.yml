@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ros-dev-container:
+    image: osrf/ros:humble-desktop
+    command: sleep infinity
+    environment:
+      - DISPLAY
+    volumes:
+      - ..:/workspaces/ros2_ws:cached
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: host

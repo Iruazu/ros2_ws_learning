@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_avoider = my_tb3_controller.obstacle_avoider:main
+

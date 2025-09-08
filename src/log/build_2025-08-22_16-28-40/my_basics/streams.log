@@ -1,0 +1,20 @@
+[0.662s] Invoking command in '/workspaces/ros2_ws/src/build/my_basics': PYTHONPATH=/workspaces/ros2_ws/src/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2_ws/src/build/my_basics/build --no-deps symlink_data
+[0.874s] running develop
+[0.976s] running egg_info
+[0.976s] writing my_basics.egg-info/PKG-INFO
+[0.985s] writing dependency_links to my_basics.egg-info/dependency_links.txt
+[0.986s] writing entry points to my_basics.egg-info/entry_points.txt
+[0.986s] writing requirements to my_basics.egg-info/requires.txt
+[0.986s] writing top-level names to my_basics.egg-info/top_level.txt
+[0.989s] reading manifest file 'my_basics.egg-info/SOURCES.txt'
+[0.990s] writing manifest file 'my_basics.egg-info/SOURCES.txt'
+[0.992s] running build_ext
+[0.993s] Creating /workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages/my-basics.egg-link (link to .)
+[0.993s] Installing listener script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics
+[0.994s] Installing talker script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics
+[0.994s] 
+[0.994s] Installed /workspaces/ros2_ws/src/build/my_basics
+[0.994s] running symlink_data
+[0.994s] creating /workspaces/ros2_ws/src/install/my_basics/share/my_basics/launch
+[0.995s] symbolically linking /workspaces/ros2_ws/src/build/my_basics/launch/my_basics_launch.py -> /workspaces/ros2_ws/src/install/my_basics/share/my_basics/launch
+[1.036s] Invoked command in '/workspaces/ros2_ws/src/build/my_basics' returned '0': PYTHONPATH=/workspaces/ros2_ws/src/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2_ws/src/build/my_basics/build --no-deps symlink_data

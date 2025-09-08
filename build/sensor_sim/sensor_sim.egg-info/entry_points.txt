@@ -1,0 +1,4 @@
+[console_scripts]
+sensor_pub = sensor_sim.sensor_pub:main
+sensor_sub = sensor_sim.sensor_sub:main
+

@@ -1,0 +1,17 @@
+{
+  "name": "ROS 2 Humble on Docker",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "ros-dev-container",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python",
+        "ms-iot.vscode-ros"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc",
+  "remoteUser": "root"
+}

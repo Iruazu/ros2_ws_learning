@@ -1,0 +1,43 @@
+[0.995s] Invoking command in '/workspaces/ros2_ws/src/my_basics': PYTHONPATH=/workspaces/ros2_ws/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_basics build --build-base /workspaces/ros2_ws/build/my_basics/build install --record /workspaces/ros2_ws/build/my_basics/install.log --single-version-externally-managed install_data
+[1.350s] running egg_info
+[1.351s] creating ../../build/my_basics/my_basics.egg-info
+[1.352s] writing ../../build/my_basics/my_basics.egg-info/PKG-INFO
+[1.352s] writing dependency_links to ../../build/my_basics/my_basics.egg-info/dependency_links.txt
+[1.352s] writing entry points to ../../build/my_basics/my_basics.egg-info/entry_points.txt
+[1.353s] writing requirements to ../../build/my_basics/my_basics.egg-info/requires.txt
+[1.353s] writing top-level names to ../../build/my_basics/my_basics.egg-info/top_level.txt
+[1.353s] writing manifest file '../../build/my_basics/my_basics.egg-info/SOURCES.txt'
+[1.355s] reading manifest file '../../build/my_basics/my_basics.egg-info/SOURCES.txt'
+[1.356s] writing manifest file '../../build/my_basics/my_basics.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.357s] running build_py
+[1.357s] creating /workspaces/ros2_ws/build/my_basics/build
+[1.357s] creating /workspaces/ros2_ws/build/my_basics/build/lib
+[1.358s] creating /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+[1.359s] copying my_basics/listener.py -> /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+[1.359s] copying my_basics/talker.py -> /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+[1.359s] copying my_basics/__init__.py -> /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+[1.359s] running install
+[1.360s] running install_lib
+[1.361s] creating /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+[1.361s] copying /workspaces/ros2_ws/build/my_basics/build/lib/my_basics/listener.py -> /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+[1.362s] copying /workspaces/ros2_ws/build/my_basics/build/lib/my_basics/talker.py -> /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+[1.362s] copying /workspaces/ros2_ws/build/my_basics/build/lib/my_basics/__init__.py -> /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+[1.363s] byte-compiling /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics/listener.py to listener.cpython-310.pyc
+[1.364s] byte-compiling /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics/talker.py to talker.cpython-310.pyc
+[1.365s] byte-compiling /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics/__init__.py to __init__.cpython-310.pyc
+[1.365s] running install_data
+[1.365s] creating /workspaces/ros2_ws/install/my_basics/share/ament_index
+[1.366s] creating /workspaces/ros2_ws/install/my_basics/share/ament_index/resource_index
+[1.366s] creating /workspaces/ros2_ws/install/my_basics/share/ament_index/resource_index/packages
+[1.366s] copying resource/my_basics -> /workspaces/ros2_ws/install/my_basics/share/ament_index/resource_index/packages
+[1.366s] copying package.xml -> /workspaces/ros2_ws/install/my_basics/share/my_basics
+[1.367s] creating /workspaces/ros2_ws/install/my_basics/share/my_basics/launch
+[1.368s] copying launch/my_basics_launch.py -> /workspaces/ros2_ws/install/my_basics/share/my_basics/launch
+[1.368s] running install_egg_info
+[1.373s] Copying ../../build/my_basics/my_basics.egg-info to /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics-0.0.0-py3.10.egg-info
+[1.374s] running install_scripts
+[1.416s] Installing listener script to /workspaces/ros2_ws/install/my_basics/lib/my_basics
+[1.417s] Installing talker script to /workspaces/ros2_ws/install/my_basics/lib/my_basics
+[1.418s] writing list of installed files to '/workspaces/ros2_ws/build/my_basics/install.log'
+[1.459s] Invoked command in '/workspaces/ros2_ws/src/my_basics' returned '0': PYTHONPATH=/workspaces/ros2_ws/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_basics build --build-base /workspaces/ros2_ws/build/my_basics/build install --record /workspaces/ros2_ws/build/my_basics/install.log --single-version-externally-managed install_data

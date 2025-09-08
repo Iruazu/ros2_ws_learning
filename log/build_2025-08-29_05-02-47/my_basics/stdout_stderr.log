@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/my_basics/my_basics.egg-info
+writing ../../build/my_basics/my_basics.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_basics/my_basics.egg-info/dependency_links.txt
+writing entry points to ../../build/my_basics/my_basics.egg-info/entry_points.txt
+writing requirements to ../../build/my_basics/my_basics.egg-info/requires.txt
+writing top-level names to ../../build/my_basics/my_basics.egg-info/top_level.txt
+writing manifest file '../../build/my_basics/my_basics.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_basics/my_basics.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_basics/my_basics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/ros2_ws/build/my_basics/build
+creating /workspaces/ros2_ws/build/my_basics/build/lib
+creating /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+copying my_basics/listener.py -> /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+copying my_basics/talker.py -> /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+copying my_basics/__init__.py -> /workspaces/ros2_ws/build/my_basics/build/lib/my_basics
+running install
+running install_lib
+creating /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+copying /workspaces/ros2_ws/build/my_basics/build/lib/my_basics/listener.py -> /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+copying /workspaces/ros2_ws/build/my_basics/build/lib/my_basics/talker.py -> /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+copying /workspaces/ros2_ws/build/my_basics/build/lib/my_basics/__init__.py -> /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics
+byte-compiling /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics/listener.py to listener.cpython-310.pyc
+byte-compiling /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics/talker.py to talker.cpython-310.pyc
+byte-compiling /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspaces/ros2_ws/install/my_basics/share/ament_index
+creating /workspaces/ros2_ws/install/my_basics/share/ament_index/resource_index
+creating /workspaces/ros2_ws/install/my_basics/share/ament_index/resource_index/packages
+copying resource/my_basics -> /workspaces/ros2_ws/install/my_basics/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/ros2_ws/install/my_basics/share/my_basics
+creating /workspaces/ros2_ws/install/my_basics/share/my_basics/launch
+copying launch/my_basics_launch.py -> /workspaces/ros2_ws/install/my_basics/share/my_basics/launch
+running install_egg_info
+Copying ../../build/my_basics/my_basics.egg-info to /workspaces/ros2_ws/install/my_basics/lib/python3.10/site-packages/my_basics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /workspaces/ros2_ws/install/my_basics/lib/my_basics
+Installing talker script to /workspaces/ros2_ws/install/my_basics/lib/my_basics
+writing list of installed files to '/workspaces/ros2_ws/build/my_basics/install.log'

@@ -1,0 +1,25 @@
+[0.671s] Invoking command in '/workspaces/ros2_ws/src/build/my_basics': PYTHONPATH=/workspaces/ros2_ws/src/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2_ws/src/build/my_basics/build --no-deps symlink_data
+[0.883s] running develop
+[0.991s] running egg_info
+[0.991s] creating my_basics.egg-info
+[0.991s] writing my_basics.egg-info/PKG-INFO
+[0.991s] writing dependency_links to my_basics.egg-info/dependency_links.txt
+[0.991s] writing entry points to my_basics.egg-info/entry_points.txt
+[0.992s] writing requirements to my_basics.egg-info/requires.txt
+[0.992s] writing top-level names to my_basics.egg-info/top_level.txt
+[0.992s] writing manifest file 'my_basics.egg-info/SOURCES.txt'
+[0.994s] reading manifest file 'my_basics.egg-info/SOURCES.txt'
+[0.994s] writing manifest file 'my_basics.egg-info/SOURCES.txt'
+[0.997s] running build_ext
+[0.998s] Creating /workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages/my-basics.egg-link (link to .)
+[0.999s] Installing listener script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics
+[1.000s] Installing talker script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics
+[1.000s] 
+[1.000s] Installed /workspaces/ros2_ws/src/build/my_basics
+[1.000s] running symlink_data
+[1.001s] creating /workspaces/ros2_ws/src/install/my_basics/share/ament_index
+[1.001s] creating /workspaces/ros2_ws/src/install/my_basics/share/ament_index/resource_index
+[1.001s] creating /workspaces/ros2_ws/src/install/my_basics/share/ament_index/resource_index/packages
+[1.001s] symbolically linking /workspaces/ros2_ws/src/build/my_basics/resource/my_basics -> /workspaces/ros2_ws/src/install/my_basics/share/ament_index/resource_index/packages
+[1.001s] symbolically linking /workspaces/ros2_ws/src/build/my_basics/package.xml -> /workspaces/ros2_ws/src/install/my_basics/share/my_basics
+[1.056s] Invoked command in '/workspaces/ros2_ws/src/build/my_basics' returned '0': PYTHONPATH=/workspaces/ros2_ws/src/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/ros2_ws/src/build/my_basics/build --no-deps symlink_data

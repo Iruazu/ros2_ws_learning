@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000261] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000276] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000288] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000298] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000309] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000319] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000329] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000339] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000349] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000359] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000369] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000379] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000389] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000399] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000409] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000435] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000447] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000458] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000469] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000479] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000489] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000503] (my_basics) JobQueued: {'identifier': 'my_basics', 'dependencies': OrderedDict()}
+[0.000516] (my_basics) JobStarted: {'identifier': 'my_basics'}
+[0.099090] (-) TimerEvent: {}
+[0.199496] (-) TimerEvent: {}
+[0.299879] (-) TimerEvent: {}
+[0.400524] (-) TimerEvent: {}
+[0.501031] (-) TimerEvent: {}
+[0.601514] (-) TimerEvent: {}
+[0.656308] (my_basics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/ros2_ws/src/build/my_basics/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/ros2_ws/src/build/my_basics', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspaces/ros2_ws/src/my_basics', 'TERM_PROGRAM_VERSION': '1.103.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-3d3d15a5-1f02-4190-bd80-7138f106f22f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f2951a1c-b725-4987-906b-ed20994184bc.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8a2e31c1d5ed1222.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-80cf9b3adc.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/ros2_ws/src/build/my_basics', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/ros2_ws/src/build/my_basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.701652] (-) TimerEvent: {}
+[0.802069] (-) TimerEvent: {}
+[0.873881] (my_basics) StdoutLine: {'line': b'running develop\n'}
+[0.904901] (-) TimerEvent: {}
+[0.976477] (my_basics) StdoutLine: {'line': b'running egg_info\n'}
+[0.976806] (my_basics) StdoutLine: {'line': b'writing my_basics.egg-info/PKG-INFO\n'}
+[0.985470] (my_basics) StdoutLine: {'line': b'writing dependency_links to my_basics.egg-info/dependency_links.txt\n'}
+[0.986148] (my_basics) StdoutLine: {'line': b'writing entry points to my_basics.egg-info/entry_points.txt\n'}
+[0.986468] (my_basics) StdoutLine: {'line': b'writing requirements to my_basics.egg-info/requires.txt\n'}
+[0.986825] (my_basics) StdoutLine: {'line': b'writing top-level names to my_basics.egg-info/top_level.txt\n'}
+[0.989140] (my_basics) StdoutLine: {'line': b"reading manifest file 'my_basics.egg-info/SOURCES.txt'\n"}
+[0.990412] (my_basics) StdoutLine: {'line': b"writing manifest file 'my_basics.egg-info/SOURCES.txt'\n"}
+[0.992544] (my_basics) StdoutLine: {'line': b'running build_ext\n'}
+[0.993014] (my_basics) StdoutLine: {'line': b'Creating /workspaces/ros2_ws/src/install/my_basics/lib/python3.10/site-packages/my-basics.egg-link (link to .)\n'}
+[0.993912] (my_basics) StdoutLine: {'line': b'Installing listener script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics\n'}
+[0.994105] (my_basics) StdoutLine: {'line': b'Installing talker script to /workspaces/ros2_ws/src/install/my_basics/lib/my_basics\n'}
+[0.994546] (my_basics) StdoutLine: {'line': b'\n'}
+[0.994800] (my_basics) StdoutLine: {'line': b'Installed /workspaces/ros2_ws/src/build/my_basics\n'}
+[0.994885] (my_basics) StdoutLine: {'line': b'running symlink_data\n'}
+[0.994962] (my_basics) StdoutLine: {'line': b'creating /workspaces/ros2_ws/src/install/my_basics/share/my_basics/launch\n'}
+[0.995266] (my_basics) StdoutLine: {'line': b'symbolically linking /workspaces/ros2_ws/src/build/my_basics/launch/my_basics_launch.py -> /workspaces/ros2_ws/src/install/my_basics/share/my_basics/launch\n'}
+[1.005061] (-) TimerEvent: {}
+[1.035096] (my_basics) CommandEnded: {'returncode': 0}
+[1.062739] (my_basics) JobEnded: {'identifier': 'my_basics', 'rc': 0}
+[1.063904] (-) EventReactorShutdown: {}
